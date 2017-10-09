@@ -1,0 +1,113 @@
+/* Name and Contact Info */
+
+h1 {
+	font: bold 60px "PT Sans", Serif;
+	border-bottom: solid 3px #2ba2ff;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+div.contact-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.text-with-icon {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+img.icon {
+	width: 20px;
+}
+
+span.icon-text {
+	font: 14px "Open Sans", Sans-Serif;
+	padding-left: 8px;
+}
+
+div#contact-info {
+	font: 14px "Open Sans", Sans-Serif;
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 37px;
+}
+
+/* Left and Right Columns */
+
+div#container {
+	display: flex;
+	align-items: center stretch;
+	justify-content: center;
+}
+
+div#left-col {
+	padding-right: 30px;
+	margin-left: 30px;
+	width: 700px;
+}
+
+div#right-col {
+	margin-top: 86px;
+	margin-right: 30px;
+	width: 500px;
+}
+
+/* Sections */
+
+div.section {
+	align-items: center;
+}
+
+div.section-content {
+	padding-left: 17px;
+	padding-right: 17px;
+	border-left: solid 3px #addbff;
+}
+
+h2 {
+	font: bold 30px "PT Sans", Serif;
+	margin-bottom: 10px
+}
+
+h3 {
+	font: 20px "PT Sans", Serif;
+	margin-bottom: 0px;
+}
+
+ul.list {
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+li.list-item {
+	font: 14px "Open Sans", Sans-Serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Education */
+
+div.school-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 478px;
+}
+
+span#graduating-date {
+	font: italic 20px "PT Sans", Sans-Serif;
+	text-align: right;
+}
+
+span#GPA {
+	font: 19px "Open Sans", Sans-Serif;
+}
+
+/* Technical Skills */
+
+span.languages {
+	font: 14px "Open Sans", Sans-Serif;
+}
