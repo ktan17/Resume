@@ -28,6 +28,13 @@ span.icon-text {
 	padding-left: 8px;
 }
 
+a.icon-text {
+	text-decoration: none;
+	color: black;
+	font: 14px "Open Sans", Sans-Serif;
+	padding-left: 8px;
+}
+
 div#contact-info {
 	font: 14px "Open Sans", Sans-Serif;
 	text-align: right;
