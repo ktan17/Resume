@@ -8,8 +8,8 @@ h1 {
 }
 
 div.contact-container {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 div.text-with-icon {
@@ -35,24 +35,26 @@ div#contact-info {
 	margin-bottom: 37px;
 }
 
-/* Left and Right Columns */
+/* Overall Container */
 
 div#container {
+	margin: auto;
+	width: 75%;
+}
+
+/* Left and Right Columns */
+
+div#col-container {
 	display: flex;
-	align-items: center stretch;
-	justify-content: center;
 }
 
 div#left-col {
-	padding-right: 30px;
-	margin-left: 30px;
-	width: 700px;
+	padding-right: 15px;
+	flex: 0 0 53%;
 }
 
 div#right-col {
-	margin-top: 86px;
-	margin-right: 30px;
-	width: 500px;
+	padding-left: 15px;
 }
 
 /* Sections */
@@ -94,7 +96,6 @@ div.school-container {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-	width: 450px;
 }
 
 span#graduating-date {
