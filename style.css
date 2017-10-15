@@ -46,7 +46,7 @@ div#contact-info {
 
 div#container {
 	margin: auto;
-	width: 68.5%;
+	width: 70%;
 }
 
 /* Left and Right Columns */
@@ -106,7 +106,7 @@ div.school-container {
 }
 
 span#graduating-date {
-	font: italic 30px "PT Sans", Sans-Serif;
+	font: italic 27px "PT Sans", Sans-Serif;
 	text-align: right;
 }
 
