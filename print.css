@@ -1,0 +1,142 @@
+/* Media Query */
+
+@media print {
+	h1 {
+		font: bold 40px "PT Sans", Serif;
+		border-bottom: solid 2px #2ba2ff;
+		margin-top: 27px;
+		margin-bottom: 7px;
+	}
+
+	div.contact-container {
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+
+	div.text-with-icon {
+		display: flex;
+		align-items: center;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+
+	img.icon {
+		width: 7px;
+	}
+
+	span.icon-text {
+		font: 10px "Open Sans", Sans-Serif;
+		padding-left: 6px;
+	}
+
+	a.icon-text {
+		text-decoration: none;
+		color: black;
+		font: 10px "Open Sans", Sans-Serif;
+		padding-left: 6px;
+	}
+
+	div#contact-info {
+		font: 10px "Open Sans", Sans-Serif;
+		text-align: right;
+		margin-top: 27px;
+		margin-bottom: 35px;
+	}
+
+	/* Overall Container */
+
+	div#container {
+		margin: auto;
+		width: 90%;
+	}
+
+	/* Left and Right Columns */
+
+	div#col-container {
+		display: flex;
+	}
+
+	div#left-col {
+		padding-right: 10px;
+		flex: 0 0 60%;
+	}
+
+	div#right-col {
+		padding-left: 10px;
+	}
+
+	/* Sections */
+
+	div.section {
+		align-items: center;
+	}
+
+	div.section-content {
+		padding-left: 12px;
+		padding-right: 12px;
+		border-left: solid 2px #addbff;
+	}
+
+	h2 {
+		font: bold 20px "PT Sans", Serif;
+		margin-bottom: 7px
+	}
+
+	h3 {
+		font: 14px "PT Sans", Serif;
+		margin-bottom: 0px;
+	}
+
+	ul.list {
+		margin-top: 3px;
+		margin-bottom: 3px
+	}
+
+	li.list-item {
+		font: 9px "Open Sans", Sans-Serif;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+
+	/* Work Experience */
+
+	div.work-container {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+
+	span.work-date {
+		font: italic 14px "PT Sans", Sans-Serif;
+		float: right;
+	}
+
+	span.company {
+		font: italic 14px "PT Sans", Sans-Serif;
+		float: left;
+	}
+
+	/* Education */
+
+	div.school-container {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		margin-top: 14px;
+	}
+
+	span#graduating-date {
+		font: italic 14px "PT Sans", Sans-Serif;
+		float: right;
+	}
+
+	span#GPA {
+		font: 14px "Open Sans", Sans-Serif;
+	}
+
+	/* Technical Skills */
+
+	span.languages {
+		font: 10px "Open Sans", Sans-Serif;
+	}
+}
