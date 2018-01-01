@@ -97,17 +97,36 @@ li.list-item {
 	margin-bottom: 5px;
 }
 
+/* Work Experience */
+
+div.work-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+span.work-date {
+	font: italic 20px "PT Sans", Sans-Serif;
+	float: right;
+}
+
+span.company {
+	font: italic 20px "PT Sans", Sans-Serif;
+	float: left;
+}
+
 /* Education */
 
 div.school-container {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 
 span#graduating-date {
 	font: italic 20px "PT Sans", Sans-Serif;
-	text-align: right;
+	float: right;
 }
 
 span#GPA {
