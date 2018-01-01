@@ -21,7 +21,7 @@
 	}
 
 	img.icon {
-		width: 7px;
+		width: 10px;
 	}
 
 	span.icon-text {
@@ -58,7 +58,7 @@
 
 	div#left-col {
 		padding-right: 10px;
-		flex: 0 0 60%;
+		flex: 0 0 55%;
 	}
 
 	div#right-col {
@@ -78,12 +78,12 @@
 	}
 
 	h2 {
-		font: bold 20px "PT Sans", Serif;
+		font: bold 17px "PT Sans", Serif;
 		margin-bottom: 7px
 	}
 
 	h3 {
-		font: 14px "PT Sans", Serif;
+		font: 12px "PT Sans", Serif;
 		margin-bottom: 0px;
 	}
 
@@ -107,12 +107,12 @@
 	}
 
 	span.work-date {
-		font: italic 14px "PT Sans", Sans-Serif;
+		font: italic 11px "PT Sans", Sans-Serif;
 		float: right;
 	}
 
 	span.company {
-		font: italic 14px "PT Sans", Sans-Serif;
+		font: italic 11px "PT Sans", Sans-Serif;
 		float: left;
 	}
 
@@ -126,12 +126,12 @@
 	}
 
 	span#graduating-date {
-		font: italic 14px "PT Sans", Sans-Serif;
+		font: italic 11px "PT Sans", Sans-Serif;
 		float: right;
 	}
 
 	span#GPA {
-		font: 14px "Open Sans", Sans-Serif;
+		font: 11px "Open Sans", Sans-Serif;
 	}
 
 	/* Technical Skills */
