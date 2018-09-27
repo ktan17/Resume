@@ -3,7 +3,7 @@
 @media print {
 	h1 {
 		font: bold 40px "PT Sans", Serif;
-		border-bottom: solid 2px #2ba2ff;
+		border-bottom: solid 2px #ff4235;
 		margin-top: 27px;
 		margin-bottom: 7px;
 	}
@@ -74,7 +74,7 @@
 	div.section-content {
 		padding-left: 12px;
 		padding-right: 12px;
-		border-left: solid 2px #addbff;
+		border-left: solid 2px #ffc3bf;
 	}
 
 	h2 {
